@@ -1,0 +1,25 @@
+<Device Model="CP4">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="TS-1070" DeviceId="03"/>
+      <Device Model="DM-NVX-E760C" DeviceId="10" Name="ENC-01 WB1"/>
+      <Device Model="DM-NVX-E760C" DeviceId="11" Name="ENC-02 WB2"/>
+      <Device Model="DM-NVX-E760C" DeviceId="12" Name="ENC-03 WB3"/>
+      <Device Model="DM-NVX-E760C" DeviceId="13" Name="ENC-04 WB4"/>
+      <Device Model="DM-NVX-E760C" DeviceId="14" Name="ENC-05 WB5"/>
+      <Device Model="DM-NVX-36xC" DeviceId="15" Name="ENC-06 AirServer"/>
+      <Device Model="DM-NVX-36xC" DeviceId="16" Name="ENC-07 Stream"/>
+      <Device Model="DM-NVX-36xC" DeviceId="17" Name="ENC-08 CAM1"/>
+      <Device Model="DM-NVX-36xC" DeviceId="18" Name="ENC-09 CAM2"/>
+      <Device Model="DM-NVX-36xC" DeviceId="19" Name="ENC-10 Spare"/>
+      <Device Model="DM-NVX-36xC" DeviceId="1A" Name="ENC-11 VTC IN"/>
+      <Device Model="DM-NVX-35xC" DeviceId="26" Name="DEC-01 Audio OUT"/>
+      <Device Model="DM-NVX-36xC" DeviceId="27" Name="DEC-02 Mediaport"/>
+      <Device Model="DM-NVX-36xC" DeviceId="28" Name="DEC-03 WP1 In1"/>
+      <Device Model="DM-NVX-36xC" DeviceId="29" Name="DEC-04 WP1 In2"/>
+      <Device Model="DM-NVX-36xC" DeviceId="2A" Name="DEC-05 WP1 In3"/>
+      <Device Model="DM-NVX-36xC" DeviceId="2B" Name="DEC-06 WP1 In4"/>
+      <Device Model="DM-NVX-36xC" DeviceId="2C" Name="DEC-07 Spare OUT"/>
+      <Device Model="DM-NVX-36x" DeviceId="2D" Name="DEC-08 Disp1"/>
+   </Network>
+</Device>

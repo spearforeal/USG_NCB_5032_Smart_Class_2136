@@ -1,0 +1,15 @@
+{
+    "nvxconfig":{
+        "Encoder01Address": ["239.8.5.0"],
+        "Encoder02Address": ["239.8.5.8"],
+        "Encoder03Address": ["239.8.5.16"],
+        "Encoder04Address": ["239.8.5.24"],
+        "Encoder05Address": ["239.8.5.32"],
+        "Encoder06Address": ["239.8.5.40"],
+        "Encoder07Address": ["239.8.5.48"],
+        "Encoder08Address": ["239.8.5.56"],
+        "Encoder9Address": ["239.8.5.64"],
+        "Encoder10Address": ["239.8.5.72"],
+        "Encoder11Address": ["239.8.5.80"]
+    }
+}
