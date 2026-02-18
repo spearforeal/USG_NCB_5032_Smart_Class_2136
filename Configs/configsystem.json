@@ -1,48 +1,114 @@
 {
-    "SystemConfig": {   
-        "SystemName": ["NCB_RM_400"],
+    "SystemConfig": {
+        "SystemName": [
+            "SmartClass_2136"
+        ],
         "CustomerNumber": [
             "3248"
         ],
         "SiteNumber": [
             "59288311"
         ],
-        "AutoshutdownEnable":["True"],
-        "DSP01IpAddress":["10.174.132.36"],
-        "PasswordInUse":["false"],
-        "PasswordOnMode7":[
+        "AutoshutdownEnable": [
             "True"
         ],
-        "UserPassword":["2234"],
-        "USBSwitcherHostname":[""],
-        "USBSwitcherUsername": [""],
-        "USBSwitcherPassword": [""],
-        "USBSwitcherDebugname": [""],
-        "USBSwitcherPortnumber": [2234],
-        "Camera1IpAddress":["10.174.132.49"],
-        "Camera1UserName":["admin"],
-        "Camera1Password":["8012662428"],
-        "Camera2IpAddress":["10.174.132.50"],
-        "Camera2UserName":["admin"],
-        "Camera2Password":["8012662428"],
-        "Camera3IpAddress":["192.168.1.30"],
-        "Camera3UserName":["Admin"],
-        "Camera3Password":["Password"],
-        "WindowProc1Hostname":["10.174.132.212"],
-        "WindowProc1Username":["admin"],
-        "WindowProc1Password":["8012662428"],
-        "WindowProc1Debugname":["MGP 641 xi"],
-        "WindowProc1Portnumber":[22023],
-        "Dest1StartupRoute":[1],
-        "Dest2StartupRoute":[1],
-        "Dest3StartupRoute":[8],
-        "Dest4StartupRoute":[0],
-        "Dest5StartupRoute":[0],
-        "Dest6StartupRoute":[0],
-        "Dest7StartupRoute":[0],
-        "Dest8StartupRoute":[0],
-
-
+        "DSP01IpAddress": [
+            "10.174.132.36"
+        ],
+        "PasswordInUse": [
+            "false"
+        ],
+        "PasswordOnMode7": [
+            "True"
+        ],
+        "UserPassword": [
+            "2234"
+        ],
+        "USBSwitcherHostname": [
+            ""
+        ],
+        "USBSwitcherUsername": [
+            ""
+        ],
+        "USBSwitcherPassword": [
+            ""
+        ],
+        "USBSwitcherDebugname": [
+            ""
+        ],
+        "USBSwitcherPortnumber": [
+            2234
+        ],
+        "CameraSpeedLow":[6],
+        "CameraSpeedHigh":[10],
+        "CameraZoomSpeedLow":[4],
+        "CameraZoomSpeedHigh":[6],
+        "Camera1IpAddress": [
+            "10.174.132.49"
+        ],
+        "Camera1UserName": [
+            "admin"
+        ],
+        "Camera1Password": [
+            "8012662428"
+        ],
+        "Camera2IpAddress": [
+            "10.174.132.50"
+        ],
+        "Camera2UserName": [
+            "admin"
+        ],
+        "Camera2Password": [
+            "8012662428"
+        ],
+        "Camera3IpAddress": [
+            "192.168.1.30"
+        ],
+        "Camera3UserName": [
+            "Admin"
+        ],
+        "Camera3Password": [
+            "Password"
+        ],
+        "WindowProc1Hostname": [
+            "10.174.132.212"
+        ],
+        "WindowProc1Username": [
+            "admin"
+        ],
+        "WindowProc1Password": [
+            "8012662428"
+        ],
+        "WindowProc1Debugname": [
+            "MGP 641 xi"
+        ],
+        "WindowProc1Portnumber": [
+            22023
+        ],
+        "Dest1StartupRoute": [
+            6
+        ],
+        "Dest2StartupRoute": [
+            11
+        ],
+        "Dest3StartupRoute": [
+            9
+        ],
+        "Dest4StartupRoute": [
+            8
+        ],
+        "Dest5StartupRoute": [
+            6
+        ],
+        "Dest6StartupRoute": [
+            6
+        ],
+        "Dest7StartupRoute": [
+            6
+        ],
+        "Dest8StartupRoute": [
+            6
+        ],
         "ModeNames": [
             "Routing",
             "Display Control",
@@ -65,40 +131,40 @@
             "Connector Plate",
             "TV",
             "Camera",
-            "Shades",
+            "Lights",
             "Volume",
             "Phone",
             "Gear"
         ],
-        "AdvanceModeNames":[
+        "AdvanceModeNames": [
             "Preset Manager",
             "A Mode 2",
             "A Mode 3",
             "A Mode 4",
             "A Mode 5"
         ],
-        "AdvanceModeVisibility":[
+        "AdvanceModeVisibility": [
             "true",
             "false",
             "false",
             "false",
             "false"
         ],
-        "AdvanceModeIcons":[
+        "AdvanceModeIcons": [
             "Gear",
             "Gear",
             "Gear",
             "Gear",
             "Gear"
         ],
-        "AudioControlSubMenuNames":[
+        "AudioControlSubMenuNames": [
             "Line",
             "Mic",
             "Outputs",
             "Inputs",
             "Mixes"
         ],
-        "AudioControlSubMenuVisibility":[
+        "AudioControlSubMenuVisibility": [
             "false",
             "false",
             "false",
@@ -106,17 +172,17 @@
             "false"
         ],
         "SourceNames": [
-            "Floor Box 1",
-            "Floor Box 2",
-            "Air Server",
-            "Stream",
+            "Wall Plate 1",
+            "Wall Plate 2",
+            "FBX-0004",
+            "FBX-0005",
+            "FBX-0006",
+            "Airserver",
+            "N/A",
             "Front Camera",
             "Rear Camera",
             "Spare",
-            "Source 8",
-            "Source 9",
-            "Source 10",
-            "Source 11",
+            "Window Processor",
             "Source 12",
             "Source 13",
             "Source 14",
@@ -134,10 +200,10 @@
             "true",
             "true",
             "true",
-            "True",
             "false",
-            "false",
-            "false",
+            "true",
+            "true",
+            "true",
             "False",
             "False",
             "False",
@@ -152,48 +218,50 @@
         "SourceIcons": [
             "Connector Plate",
             "Connector Plate",
+            "Connector Plate",
+            "Connector Plate",
+            "Connector Plate",
             "Wireless Device",
-            "Media Server",
-            "Camera",
-            "Camera",
             "Connector",
-            "Laptop",
-            "Laptop",
-            "Laptop",
-            "Laptop",
-            "Laptop",
-            "Laptop",
-            "Media Server",
             "Camera",
             "Camera",
-            "Connector",
+            "Laptop",
+            "media server",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
             "Laptop",
             "Laptop",
             "Laptop"
         ],
         "DetinationNames": [
-            "Output 1",
             "Audio",
-            "Output 3",
-            "Output 4",
-            "Output 5",
-            "Output 6",
-            "Output 7",
-            "Output 8",
+            "Mediaport",
+            "WP Input 1",
+            "WP Input 2",
+            "WP Input 3",
+            "WP Input 4",
+            "Spare",
+            "Display",
             "Output 9",
-            "Output 10"
+            "Output 10",
+            "Output 11"
         ],
         "DestinationVisibility": [
             "true",
-            "True",
-            "True",
-            "True",
-            "True",
-            "True",
-            "True",
-            "True",
-            "True",
-            "True"
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
         ],
         "DestinationIcons": [
             "Display",
@@ -207,9 +275,9 @@
             "Display",
             "Display"
         ],
-        "DisplayIsProjector":[
-            "True",
-            "False",
+        "DisplayIsProjector": [
+            "false",
+            "false",
             "False",
             "False",
             "False",
@@ -219,10 +287,10 @@
             "False",
             "False"
         ],
-        "DisplayNames":[
-            "Display Left",
-            "Display Right",
-            "Display Center",
+        "DisplayNames": [
+            "Display",
+            "Display",
+            "Display",
             "Side Display",
             "Side Display",
             "Side Display",
@@ -231,7 +299,7 @@
             "Side Display",
             "Side Display"
         ],
-        "DisplayVisibility":[
+        "DisplayVisibility": [
             "true",
             "false",
             "false",
@@ -243,7 +311,7 @@
             "false",
             "false"
         ],
-        "DisplayPresetNames":[
+        "DisplayPresetNames": [
             "All On",
             "All Off",
             "Preset 3",
@@ -255,7 +323,7 @@
             "Preset 9",
             "Preset 10"
         ],
-        "DisplayPresetVisibility":[
+        "DisplayPresetVisibility": [
             "false",
             "false",
             "false",
@@ -267,19 +335,19 @@
             "false",
             "false"
         ],
-        "AudioControlNames":[
-            "Program",
-            "Phone Incoming",
-            "Audio Control 3",
-            "Audio Control 4",
-            "Audio Control 5",
-            "Audio Control 6",
-            "Audio Control 7",
-            "Audio Control 8",
+        "AudioControlNames": [
+            "Speakers",
+            "Media",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "Audio Control 9",
             "Audio Control 10"
         ],
-        "AudioControlVisibility":[
+        "AudioControlVisibility": [
             "true",
             "true",
             "false",
@@ -291,10 +359,10 @@
             "false",
             "false"
         ],
-        "MicControlNames":[
+        "MicControlNames": [
             "Privacy",
             "Mic Control 2",
-            "Mic Control 3",
+            "Wired Mics",
             "Mic Control 4",
             "Mic Control 5",
             "Mic Control 6",
@@ -303,10 +371,10 @@
             "Mic Control 9",
             "Mic Control 10"
         ],
-        "MicControlVisibility":[
+        "MicControlVisibility": [
             "true",
             "false",
-            "false",
+            "true",
             "false",
             "false",
             "false",
@@ -315,40 +383,35 @@
             "false",
             "false"
         ],
-		
-		"LightingPresetNames":
-		[
-			"All On",
-			"All Off",
-			"Scene 1",
-			"Scene 2",
-			"Scene 3",
+        "LightingPresetNames": [
+            "All On",
+            "All Off",
+            "Scene 1",
+            "Scene 2",
+            "Scene 3",
             "Scene 4",
             "Up",
             "Down"
-		],
-		"LightingPresetVisibility":
-		[
-			"true",
-			"True",
-			"True",
-			"true",
-			"True",
+        ],
+        "LightingPresetVisibility": [
+            "true",
             "True",
+            "false",
+            "false",
+            "false",
+            "false",
             "True",
             "True"
-		],
-        "ShadeVisibility":
-        [
-            "false", 
+        ],
+        "ShadeVisibility": [
+            "false",
             "false",
             "false",
             "False",
             "False",
             "False"
         ],
-        "ShadeIcon":
-        [
+        "ShadeIcon": [
             "Up Alt",
             "Stop",
             "Down Alt",
@@ -356,7 +419,7 @@
             "Stop",
             "Stop"
         ],
-        "CameraVisibility":[
+        "CameraVisibility": [
             "True",
             "True",
             "False",
@@ -364,15 +427,15 @@
             "False",
             "False"
         ],
-        "CameraNames":[
-            "Front Right Camera",
-            "Front Left Camera",
-            "Rear Right Camera",
-            "Rear Left Camera",
-            "Center Camera",
-            "Main Camera"
+        "CameraNames": [
+            "Rear         Camera",
+            "Front        Camera",
+            "Camera",
+            "Camera",
+            "Camera",
+            "Camera"
         ],
-        "CameraCtrlVisibility":[
+        "CameraCtrlVisibility": [
             "True",
             "True",
             "True",
@@ -380,7 +443,7 @@
             "True",
             "True"
         ],
-        "CameraCtrlNames":[
+        "CameraCtrlNames": [
             "Power On",
             "Power Off",
             "Zoom +",
@@ -388,7 +451,7 @@
             "Home",
             "Multiview"
         ],
-        "CameraCtrlIcon":[
+        "CameraCtrlIcon": [
             27,
             27,
             61,
@@ -396,30 +459,30 @@
             14,
             99
         ],
-        "CameraPresetVisibility":[
+        "CameraPresetVisibility": [
             "True",
             "True",
             "True",
             "True"
         ],
-        "CameraPresetNames":[
+        "CameraPresetNames": [
             "Preset 1",
             "Preset 2",
             "Preset 3",
             "Preset 4"
         ],
-        "CameraControlSourceVisible":[
+        "CameraControlSourceVisible": [
             "true",
             "true",
             "true",
             "true",
             "true",
             "true",
-            "True",
             "false",
+            "true",
+            "true",
+            "true",
             "false",
-            "false",
-            "False",
             "False",
             "False",
             "False",
@@ -429,23 +492,22 @@
             "false",
             "false",
             "false"
-
         ],
-        "AdvancePresetVisiblity":[
+        "AdvancePresetVisiblity": [
             "true",
             "true",
             "true",
             "true",
             "true"
         ],
-        "AdvancePresetNames":[
+        "AdvancePresetNames": [
             "Preset 1",
             "Preset 2",
             "Preset 3",
             "Preset 4",
             "Preset 5"
         ],
-        "WP1PresetNames":[
+        "WP1PresetNames": [
             "Full Screen",
             "2x2",
             "2x1",
@@ -454,24 +516,24 @@
             "1x3 Vertical",
             "PnP"
         ],
-        "RoutingPresetVisibility":[
+        "RoutingPresetVisibility": [
             "True",
             "True",
             "True",
             "True",
             "True"
         ],
-        "RoutingPresetNames":[
+        "RoutingPresetNames": [
             "Preset 1",
             "Preset 2",
             "Preset 3",
             "Preset 4",
             "Preset 5"
         ],
-        "PMDestinationVisibility":[
+        "PMDestinationVisibility": [
             "True",
             "True",
-            "True",
+            "false",
             "False",
             "False",
             "False",
@@ -480,21 +542,18 @@
             "False",
             "False"
         ],
-        "PMSourceVisiblity":[
+        "PMSourceVisiblity": [
             "true",
             "true",
             "true",
             "true",
             "true",
             "true",
-            "True",
             "false",
-            "false",
-            "false"
+            "true",
+            "true",
+            "true",
+            "true"
         ]
-
-
-
-
-	}
+    }
 }
