@@ -70,11 +70,11 @@ PUSH Pan_Left_Low
 }
 PUSH Pan_Right_High
 {
-	SendCmdWithSpeed(CMD_PAN_Right, PanSpeedHigh);
+	SendCmdWithSpeed(CMD_PAN_RIGHT, PanSpeedHigh);
 }
 PUSH Pan_Right_Low
 {
-	SendCmdWithSpeed(CMD_PAN_LEFT, PanSpeedLow);
+	SendCmdWithSpeed(CMD_PAN_RIGHT, PanSpeedLow);
 }
 PUSH Tilt_Up_High
 {
