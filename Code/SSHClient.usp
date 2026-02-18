@@ -56,11 +56,13 @@ PUSH Initialize
 }
 PUSH Connect
 {
-	if(connected = 0)
-	{
-		client.Connect();
+//	if(connected = 0)
+//	{
+//		client.Connect();
 		
-	}
+//	}
+	client.Connect();
+
 }
 PUSH Disconnect
 {
@@ -84,10 +86,12 @@ RELEASE Use_Parameters
 }
 THREADSAFE Change tx$
 {
-	if(connected)
-	{
-		client.SendCommand(tx$);
-	}
+//	if(connected)
+//	{
+//		client.SendCommand(tx$);
+//	}
+	client.SendCommand(tx$);
+
 }
 function Main()
 {
