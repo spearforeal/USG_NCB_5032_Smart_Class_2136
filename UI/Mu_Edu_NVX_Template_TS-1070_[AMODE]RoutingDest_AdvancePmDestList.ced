@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=Mu_Edu_NVX_Template_TS-1070_[AMODE]RoutingDest_AdvancePmDestList.ced
 Hint=AdvancePmDestList (Smart Object ID=38)
-Code=40
+Code=41
 SGControlType=Subpage Reference List Horizontal
 SGControlName=AdvancePmDestList
 GUID=EA8A0807-D168-4C98-A87C-A20558DB5BA4
@@ -376,14 +376,14 @@ OutputList3SigType32=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=40
-CedH=40
+Pp1=41
+CedH=41
 SmartObjId=38d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=40
+H=41
 Tp=1
 HD=TRUE
 DV=38d
@@ -396,7 +396,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=40
+H=41
 Name=Mu_Edu_NVX_Template_TS-1070_[AMODE]RoutingDest_AdvancePmDestList.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
