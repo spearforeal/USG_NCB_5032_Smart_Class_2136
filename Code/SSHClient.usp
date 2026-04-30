@@ -67,6 +67,7 @@ PUSH Connect
 PUSH Disconnect
 {
 	client.Disconnect();
+	RegisterDelegates();
 }
 PUSH Debug
 {
