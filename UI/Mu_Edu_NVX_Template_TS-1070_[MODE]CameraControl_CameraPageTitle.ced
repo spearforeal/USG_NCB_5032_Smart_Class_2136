@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=Mu_Edu_NVX_Template_TS-1070_[MODE]CameraControl_CameraPageTitle.ced
 Hint=CameraPageTitle (Smart Object ID=26)
-Code=5
+Code=4
 SGControlType=Subpage Reference List Horizontal
 SGControlName=CameraPageTitle
 GUID=4CBBAFFD-DF44-43DA-A53A-FDDE258B6F9D
@@ -180,14 +180,14 @@ OutputList3SigType13=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=5
-CedH=5
+Pp1=4
+CedH=4
 SmartObjId=26d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=5
+H=4
 Tp=1
 HD=TRUE
 DV=26d
@@ -200,7 +200,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=5
+H=4
 Name=Mu_Edu_NVX_Template_TS-1070_[MODE]CameraControl_CameraPageTitle.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
